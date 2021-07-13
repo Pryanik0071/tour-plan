@@ -34,6 +34,40 @@ body {
   margin-left: 108px;
 }
 
+.nav-menu {
+  background-color: #0A223D;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: auto;
+  padding: 31px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-list__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  font-style: normal;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.logo {
+  width: 177px;
+  height: 24px;
+}
+
 .search {
   display: -webkit-box;
   display: -ms-flexbox;
