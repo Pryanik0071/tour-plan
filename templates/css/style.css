@@ -527,6 +527,7 @@ template {
     display: flex;
     width: 16px;
     height: 11px;
+    padding: 0;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -545,6 +546,16 @@ template {
     width: 16px;
     height: 1px;
     background-color: #333333;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav-top {
+    padding: 28px 0;
+  }
+  .logo {
+    width: 99px;
+    height: 13px;
   }
 }
 /*# sourceMappingURL=style.css.map */
