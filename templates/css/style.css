@@ -12,6 +12,10 @@ body {
   margin: auto;
 }
 
+img {
+  max-width: 100%;
+}
+
 .nav {
   background-color: #FFFFFF;
 }
@@ -480,10 +484,27 @@ template {
 
 @media (max-width: 992px) {
   .container {
-    max-width: 760px;
+    max-width: 700px;
   }
   .nav__search {
-    margin-left: auto;
+    margin-left: 47px;
+  }
+  .nav-top {
+    padding: 30px 0;
+  }
+  .nav-list {
+    padding: 23px 0;
+  }
+  .nav-list__link {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .logo {
+    width: 132px;
+    height: 18px;
+  }
+  .search__input {
+    width: 340px;
   }
 }
 
