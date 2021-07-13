@@ -104,6 +104,7 @@ img {
   top: 0;
   right: 0;
   background-color: #EC1F46;
+  cursor: pointer;
 }
 
 .user {
