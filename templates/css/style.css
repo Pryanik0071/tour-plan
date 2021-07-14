@@ -192,6 +192,7 @@ img {
   font-size: 24px;
   line-height: 30px;
   margin-bottom: 0;
+  text-transform: uppercase;
 }
 
 .hotel-wrapper {
@@ -698,9 +699,6 @@ template {
   .logo {
     width: 99px;
     height: 13px;
-  }
-  .breadcrumb, .hotel {
-    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
