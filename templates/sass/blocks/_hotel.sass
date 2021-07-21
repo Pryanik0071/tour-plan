@@ -35,6 +35,14 @@
     font-weight: normal
     font-size: 12px
     line-height: 15px
+  &-grid
+    display: flex
+    justify-content: space-between
+  &-right
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+
 
 .stars
   flex-basis: 100% 
@@ -72,7 +80,7 @@
     left: 0
     bottom: 0
     z-index: 10
-    background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
+    background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%)
 
 .slider
   width: 728px
@@ -96,3 +104,81 @@
     &--prev
       left: 18px
       background-image: url(../img/arrow-prev.svg)
+
+.booking
+  background-color: $background-dark
+  font-family: Nunito
+  font-style: normal
+  border-radius: 8px
+  width: 350px
+  min-height: 210px
+  padding: 28px
+  color: $white-color
+  &__info
+    display: flex
+    justify-content: space-between
+    margin-bottom: 9px
+  &__price
+    display: flex
+    flex-direction: column
+  &__start
+    font-weight: normal
+    font-size: 10px
+    line-height: 14px
+  &__pricetag
+    font-weight: 800
+    font-size: 24px
+    line-height: 33px
+  &__per-room
+    font-weight: normal
+    font-size: 12px
+    line-height: 16px
+  &__room
+    margin-top: 4px
+  &__text
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-bottom: 8px
+  &__description
+    margin-left: 9px
+    font-weight: normal
+    font-size: 12px
+    line-height: 16px
+  &__call-center
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 17px
+  &__heading
+    font-weight: 600
+    font-size: 18px
+    line-height: 25px
+  &__number
+    font-weight: 600
+    font-size: 18px
+    line-height: 25px
+    color: inherit
+    display: flex
+    justify-content: space-between
+    align-items: center
+    text-decoration: none
+  &__num
+    margin-left: 8px
+  &__button
+    font-weight: 600
+    font-size: 14px
+    line-height: 19px
+    width: 100%
+    min-height: 45px
+    color: inherit
+    border-radius: 4px
+    background-color: $primary-color
+    border: none
+    cursor: pointer
+  
+.map
+  width: 347px
+  height: 213px
+  background-color: black
+  border-radius: 4px
