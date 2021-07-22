@@ -681,7 +681,7 @@ template {
 
 .hotel-button--prev {
   left: 18px;
-  background-image: url(../img/arrowgotel-prev.svg);
+  background-image: url(../img/arrowhotel-prev.svg);
 }
 
 .booking {
@@ -821,10 +821,6 @@ template {
 .newsletter {
   position: relative;
   padding: 98px 0 87px 0;
-  background-image: url(../img/newsletter-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .newsletter::before {

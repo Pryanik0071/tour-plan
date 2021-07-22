@@ -56,3 +56,6 @@ const swiperReviews = new Swiper(".reviews-container", {
     enabled: true,
   },
 });
+
+// Parallax
+$(".newsletter").parallax({ imageSrc: "templates/img/newsletter-bg.jpg" });
