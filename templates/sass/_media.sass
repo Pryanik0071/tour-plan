@@ -47,6 +47,19 @@
   .newsletter
     padding: 92px 0 93px 0
 
+  .reviews
+    padding-bottom: 60px
+    &__title
+      font-size: 30px
+      line-height: 38px
+      margin-bottom: 50px
+    &-slide
+      max-width: 580px
+      &::after, &::before
+        display: none
+      &__text
+        max-width: 455px
+
 @media (max-width: 768px)
   .container
     max-width: 576px
@@ -90,10 +103,10 @@
 
   .stars
     flex-basis: auto
-  
-  .hotel-slider
-    height: 350px
+      
   .hotel
+    &-slider
+      height: 350px
     &-right
       flex-direction: column
       min-height: 450px
@@ -110,7 +123,30 @@
       align-items: flex-start
     &-title
       margin-bottom: 37px
-
+  
+  .reviews
+    padding-bottom: 50px
+    &__title
+      font-size: 18px
+      line-height: 23px
+      margin-bottom: 42px
+    &-slide
+      padding: 0 30px 30px
+      &::after, &::before
+        display: none
+      &__text
+        max-width: 100%
+    &-button
+      top: 32px
+      &--prev
+        left: 50%
+        margin-left: -79px
+        transform: translate(-50%, 0)
+      &--next
+        right: 50%
+        margin-right: -79px
+        transform: translate(50%, 0)
+      
 @media (max-width: 576px)
   .nav
     &-top
