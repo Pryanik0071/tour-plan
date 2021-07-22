@@ -1,18 +1,19 @@
-// Слайдер
-const swiper = new Swiper(".swiper-container", {
+// Слайдер фото отеля
+const swiperHotel = new Swiper(".hotel-container", {
   // Optional parameters
   loop: true,
 
   // Navigation arrows
   navigation: {
-    nextEl: ".slider-button--next",
-    prevEl: ".slider-button--prev",
+    nextEl: ".hotel-button--next",
+    prevEl: ".hotel-button--prev",
   },
 
   // Keyboard control
   keyboard: {
     enabled: true,
   },
+  effect: "coverflow",
 });
 
 // Карта

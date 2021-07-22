@@ -111,7 +111,7 @@
       <div class="container">
         <div class="hotel-info">
           <div class="hotel-info__text">
-            <div class="hotel-wrapper">
+            <div class="hotel-ratting">
               <div class="stars">
                 <img src="templates/img/star.svg" alt="Star" />
                 <img src="templates/img/star.svg" alt="Star" />
@@ -136,55 +136,55 @@
         </div>
         <!-- /.hotel-info -->
         <div class="hotel-grid">
-          <div class="slider hotel__slider">
+          <div class="hotel-slider">
             <!-- Slider main container -->
-            <div class="swiper-container">
+            <div class="swiper-container hotel-container">
               <!-- Additional required wrapper -->
-              <div class="swiper-wrapper">
+              <div class="swiper-wrapper hotel-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide">
+                <div class="swiper-slide hotel-slide">
                   <img
-                    class="swiper-slide__img"
+                    class="hotel-slide__img"
                     src="templates/img/slide-1.jpg"
                     alt="slide"
                   />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide hotel-slide">
                   <img
-                    class="swiper-slide__img"
+                    class="hotel-slide__img"
                     src="templates/img/slide-2.jpg"
                     alt="slide"
                   />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide hotel-slide">
                   <img
-                    class="swiper-slide__img"
+                    class="hotel-slide__img"
                     src="templates/img/slide-3.jpg"
                     alt="slide"
                   />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide hotel-slide">
                   <img
-                    class="swiper-slide__img"
+                    class="hotel-slide__img"
                     src="templates/img/slide-4.jpg"
                     alt="slide"
                   />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide hotel-slide">
                   <img
-                    class="swiper-slide__img"
+                    class="hotel-slide__img"
                     src="templates/img/slide-5.jpg"
                     alt="slide"
                   />
                 </div>
               </div>
               <!-- If we need navigation buttons -->
-              <button class="slider-button slider-button--prev"></button>
-              <button class="slider-button slider-button--next"></button>
+              <button class="hotel-button hotel-button--prev"></button>
+              <button class="hotel-button hotel-button--next"></button>
             </div>
             <!-- /.swiper-container -->
           </div>
-          <!-- /.slider -->
+          <!-- /.hotel-slider -->
           <div class="hotel-right">
             <div class="booking">
               <div class="booking__info">
@@ -256,6 +256,44 @@
       <!-- /.newsletter-wrapper -->
     </section>
     <!-- /.newsletter -->
+    <section class="reviews">
+      <div class="container">
+        <h2 class="reviews-title">What people think about us</h2>
+        <!-- Slider main container -->
+        <div class="swiper-container reviews-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper reviews-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide reviews-slider__item">
+              <div class="reviews-slider__profile">
+                <img
+                  src="templates/img/reviewsavatar-1.jpg"
+                  alt="Photo: Megan Fox"
+                  class="reviews-slider__avatar"
+                />
+                <h3 class="reviews-slider__username">Megan Fox</h3>
+                <span class="reviews-slider__date">Stayed 18 Nov, 2019</span>
+                <div class="reviews-slider__stars">
+                  <img src="templates/img/star.svg" alt="Star" />
+                  <img src="templates/img/star.svg" alt="Star" />
+                  <img src="templates/img/star.svg" alt="Star" />
+                  <img src="templates/img/star.svg" alt="Star" />
+                  <img src="templates/img/star.svg" alt="Star" />
+                </div>
+                <!-- /.reviews-slider__stars -->
+              </div>
+              <!-- /.reviews-slider__profile -->
+            </div>
+            <div class="swiper-slide reviews-slide__item">Slide 2</div>
+            <div class="swiper-slide reviews-slide__item">Slide 3</div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="reviews-button reviews-button--prev"></div>
+          <div class="reviews-button reviews-button--next"></div>
+        </div>
+      </div>
+    </section>
+    <!-- /.reviews -->
     <script src="templates/js/swiper-bundle.min.js"></script>
     <script src="templates/js/main.js"></script>
   </body>
