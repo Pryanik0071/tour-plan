@@ -891,7 +891,7 @@ template {
 
 .subscribe__button {
   position: absolute;
-  min-width: 65px;
+  width: 65px;
   right: 0;
   top: 0;
   height: 100%;
@@ -901,6 +901,8 @@ template {
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 @media (max-width: 1200px) {
