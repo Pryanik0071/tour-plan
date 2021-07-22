@@ -647,6 +647,11 @@ template {
   background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
 }
 
+.hotel-container {
+  width: 100%;
+  height: 100%;
+}
+
 .hotel-slider {
   width: 728px;
   height: 450px;
@@ -806,7 +811,7 @@ template {
 }
 
 .map {
-  width: 347px;
+  width: 350px;
   height: 213px;
   background-color: black;
   border-radius: 10px;

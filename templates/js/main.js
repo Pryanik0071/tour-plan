@@ -39,3 +39,20 @@ function init() {
   // Размещение геообъекта на карте.
   myMap.geoObjects.add(myPlacemark);
 }
+
+// Слайдер фото отеля
+const swiperReviews = new Swiper(".reviews-container", {
+  // Optional parameters
+  loop: true,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".reviews-button--next",
+    prevEl: ".reviews-button--prev",
+  },
+
+  // Keyboard control
+  keyboard: {
+    enabled: true,
+  },
+});
