@@ -962,6 +962,9 @@ template {
   .slider {
     width: 100%;
   }
+  .newsletter {
+    padding: 92px 0 93px 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1036,6 +1039,9 @@ template {
   }
   .booking, .map {
     width: 100%;
+  }
+  .newsletter {
+    padding: 76px 0 83px 0;
   }
   .newsletter-wrapper {
     max-width: 576px;
