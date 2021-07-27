@@ -484,7 +484,11 @@
           </div>
           <!-- /.footer__list -->
           <div class="footer__social-network">
-            <h3 class="footer__title footer__title--inline">Social Network</h3>
+            <h3
+              class="footer__title footer__title--inline footer__title-social"
+            >
+              Social Network
+            </h3>
             <div class="footer__social-links">
               <a href="#" class="footer__link"
                 ><img src="templates/img/facebook.svg" alt="Icon: Facebook"
@@ -578,8 +582,13 @@
                 class="footer__message"
                 placeholder="Message"
               ></textarea>
-              <button class="button footer__button" type="submit">Send</button>
-              <span class="footer__info">* Required Fields</span>
+              <div class="footer__send-wrapper">
+                <button class="button footer__button" type="submit">
+                  Send
+                </button>
+                <span class="footer__info">* Required Fields</span>
+              </div>
+              <!-- /.footer__send-wrapper -->
             </form>
           </div>
           <!-- /.footer__contact-form -->
