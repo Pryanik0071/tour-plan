@@ -1166,6 +1166,7 @@ template {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: start;
+  margin-bottom: 95px;
 }
 
 .footer__logo {
@@ -1358,6 +1359,37 @@ template {
 .footer__legal {
   -ms-grid-column-align: end;
       justify-self: end;
+}
+
+.footer-disclaimer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 136px 1fr 136px;
+      grid-template-columns: 136px 1fr 136px;
+}
+
+.footer-disclaimer__list {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-disclaimer__link {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 5px;
+}
+
+.footer-disclaimer__payment {
+  width: 136px;
+  height: 22px;
+  -ms-grid-column: 3;
+  grid-column: 3;
 }
 
 @media (max-width: 1200px) {
