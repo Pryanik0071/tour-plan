@@ -1355,6 +1355,11 @@ template {
           justify-content: space-between;
 }
 
+.footer__legal {
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
@@ -1711,6 +1716,8 @@ template {
     grid-row: 3;
     -ms-grid-column: 1;
     grid-column: 1;
+    -ms-grid-column-align: start;
+        justify-self: start;
   }
   .footer__additional {
     -ms-grid-row: 4;
