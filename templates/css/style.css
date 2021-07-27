@@ -1201,8 +1201,9 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: start;
-      align-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
   -ms-grid-row: 2;
   -ms-grid-row-span: 2;
   grid-row: 2 / 4;
@@ -1304,9 +1305,14 @@ template {
   margin-bottom: 15px;
   -ms-flex-preferred-size: 48%;
       flex-basis: 48%;
+  font-size: 12px;
+  line-height: 15px;
+  color: #BDBDBD;
 }
 
 .footer__message {
+  width: 539px;
+  height: 123px;
   background-color: #FFFFFF;
   border-radius: 4px;
   padding: 18px 23px;
@@ -1314,6 +1320,10 @@ template {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   margin-bottom: 23px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #BDBDBD;
+  resize: none;
 }
 
 .footer__button {
