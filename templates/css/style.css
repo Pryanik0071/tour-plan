@@ -1679,6 +1679,11 @@ template {
             order: -1;
     margin-left: 0;
   }
+  .hotel-ratting {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
   .stars {
     -ms-flex-preferred-size: auto;
         flex-basis: auto;
