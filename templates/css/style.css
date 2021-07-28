@@ -486,7 +486,7 @@ template {
   color: #333333;
 }
 
-.nav-list__list-user--visible, .nav-list__list-search--visible {
+.nav-list__user-visible, .nav-list__search-visible {
   display: none;
 }
 
@@ -1572,7 +1572,7 @@ template {
     max-width: 576px;
     width: 92%;
   }
-  .nav__mobile--fixed {
+  .nav--fixed {
     position: fixed;
     left: 0;
     top: 0;
@@ -1631,13 +1631,13 @@ template {
     display: flex;
     margin-left: 0;
   }
-  .nav-list__list-user--visible, .nav-list__list-search--visible {
+  .nav-list__user-visible, .nav-list__search-visible {
     display: block;
   }
-  .nav-list__list-user--visible {
+  .nav-list__user-user--visible, .nav-list__search-user--visible {
     margin-bottom: 27px;
   }
-  .nav-list__list-search--visible {
+  .nav-list__user-search--visible, .nav-list__search-search--visible {
     margin-bottom: 39px;
   }
   .nav__user {

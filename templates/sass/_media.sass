@@ -121,13 +121,12 @@
     max-width: 576px
     width: 92%
   .nav
-    &__mobile
-      &--fixed
-        position: fixed
-        left: 0
-        top: 0
-        right: 0
-        z-index: 99
+    &--fixed
+      position: fixed
+      left: 0
+      top: 0
+      right: 0
+      z-index: 99
     &-top
       &__button
         display: flex
@@ -164,10 +163,9 @@
           display: flex
           margin-left: 0
     &-list
-      &__list
-        &-user, &-search
-          &--visible
-            display: block
+      &__user, &__search
+        &-visible
+          display: block
         &-user
           &--visible
             margin-bottom: 27px
