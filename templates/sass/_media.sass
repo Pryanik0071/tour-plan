@@ -83,6 +83,7 @@
     &-wrapper
       grid-template-columns: repeat(6, 1fr)
       grid-row-gap: 40px
+      margin-bottom: 56px
     &__imput
       flex-basis: 49%
     &__logo
@@ -107,6 +108,11 @@
       &-form
         grid-row: 4
         grid-column: span 5
+    &-disclaimer
+      grid-template-columns: 1fr 136px
+      &__list
+        grid-column: 1
+        justify-content: start
 
 @media (max-width: 768px)
   .container
@@ -243,6 +249,8 @@
   .footer
     padding-top: 69px
     padding-bottom: 21px
+    &-wrapper
+      margin-bottom: 30px
     &__title
       &-social
         flex-basis: 100%
@@ -282,3 +290,15 @@
       &-wrapper
         flex-direction: column-reverse
         align-items: start
+    &-disclaimer
+      grid-template-columns: 1fr
+      grid-template-rows: 1fr 1fr
+      grid-gap: 10px
+      &__list
+        grid-column: span 2
+        justify-content: space-between
+      &__link
+        margin-right: 0
+      &__payment
+        grid-column: 1
+        grid-row: 2
