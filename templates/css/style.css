@@ -1607,6 +1607,7 @@ template {
     left: 0;
     bottom: 0;
     padding-top: 30px;
+    overflow: auto;
   }
   .nav-menu--visible {
     display: block;
