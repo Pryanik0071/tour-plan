@@ -1421,13 +1421,14 @@ template {
 }
 
 .modal__dialog {
-  max-height: 487px;
   position: fixed;
+  width: 80%;
+  max-width: 478px;
+  max-height: 90%;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 478px;
   padding: 33px 88px;
   background-color: #0A223D;
   border-radius: 8px;
@@ -1437,7 +1438,7 @@ template {
   opacity: 0;
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
-  overflow-y: auto;
+  overflow: auto;
 }
 
 .modal__dialog--visible {
