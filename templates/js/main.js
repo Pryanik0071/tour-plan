@@ -71,9 +71,10 @@ $(document).ready(function () {
 
   closeModalButton.on("click", closeModal);
 
-  $(document).keyup(function (e) {
-    if (e.keyCode === 27) {
-      closeModal;
+  $(document).keydown(function (e) {
+    var modalIsOpen = $(".modal__dialog").hasClass("modal__dialog--visible");
+    if (e.keyCode === 27 && modalIsOpen) {
+      closeModal(e);
       console.log("Hi");
     }
   });
