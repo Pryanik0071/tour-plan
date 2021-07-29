@@ -392,6 +392,7 @@ template {
 
 .nav-menu {
   background-color: #0A223D;
+  overflow: auto;
 }
 
 .nav-list {
@@ -1400,6 +1401,10 @@ template {
   grid-column: 3;
 }
 
+.modal {
+  overflow-y: hidden;
+}
+
 .modal__overlay {
   position: fixed;
   top: 0;
@@ -1412,6 +1417,7 @@ template {
   opacity: 0;
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
+  overflow-y: hidden;
 }
 
 .modal__overlay--visible {
@@ -1435,6 +1441,7 @@ template {
   opacity: 0;
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
+  overflow-y: auto;
 }
 
 .modal__dialog--visible {
@@ -1744,7 +1751,6 @@ template {
     left: 0;
     bottom: 0;
     padding-top: 30px;
-    overflow: auto;
   }
   .nav-menu--visible {
     display: block;
@@ -2039,6 +2045,23 @@ template {
     grid-column: 1;
     -ms-grid-row: 2;
     grid-row: 2;
+  }
+  .modal__dialog {
+    width: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .modal__send-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .modal__info {
+    margin-bottom: 15px;
   }
 }
 /*# sourceMappingURL=style.css.map */

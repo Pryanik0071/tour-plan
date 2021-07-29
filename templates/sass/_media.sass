@@ -147,7 +147,6 @@
       left: 0
       bottom: 0
       padding-top: 30px
-      overflow: auto
       &--visible
         display: block
     &-list
@@ -360,3 +359,15 @@
       &__payment
         grid-column: 1
         grid-row: 2
+
+  .modal
+    &__dialog
+      width: 90%
+      padding-left: 20px 
+      padding-right: 20px
+    &__send
+      &-wrapper
+        flex-direction: column-reverse
+        align-items: start
+    &__info
+      margin-bottom: 15px
