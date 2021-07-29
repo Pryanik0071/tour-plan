@@ -892,7 +892,7 @@ template {
   font-weight: 300;
   font-size: 14px;
   line-height: 18px;
-  color: #BDBDBD;
+  color: #333333;
 }
 
 .subscribe__button {
@@ -1318,7 +1318,7 @@ template {
       flex-basis: 48%;
   font-size: 12px;
   line-height: 15px;
-  color: #BDBDBD;
+  color: #333333;
 }
 
 .footer__message {
@@ -1332,7 +1332,7 @@ template {
   margin-bottom: 23px;
   font-size: 12px;
   line-height: 15px;
-  color: #BDBDBD;
+  color: #333333;
   resize: none;
 }
 
@@ -1489,7 +1489,7 @@ template {
       flex-basis: 100%;
   font-size: 12px;
   line-height: 15px;
-  color: #BDBDBD;
+  color: #333333;
 }
 
 .modal__message {
@@ -1503,7 +1503,7 @@ template {
   margin-bottom: 15px;
   font-size: 12px;
   line-height: 15px;
-  color: #BDBDBD;
+  color: #333333;
   resize: none;
 }
 
