@@ -13,7 +13,7 @@ if(isset($_POST['email'])) {
   <h2>Новая подписка</h2>
   <b>Email:</b> $email
   ";
-} else {
+} elseif (isset($_POST['name'])){
   // Переменные, которые отправляет пользователь
   $name = $_POST['name'];
   $phone = $_POST['phone'];
@@ -25,6 +25,20 @@ if(isset($_POST['email'])) {
   <h2>Новое обращение</h2>
   <b>Имя:</b> $name<br>
   <b>Телефон:</b> $phone<br><br>
+  <b>Сообщение:</b><br>$message
+  ";
+} else {
+  $name = $_POST['name-modal'];
+  $phone = $_POST['phone-modal'];
+  $email = $_POST['email-modal'];
+  $message = $_POST['message-modal'];
+  // Формирование самого письма
+  $title = "Новое обращение Best Tour Plan";
+  $body = "
+  <h2>Новое обращение</h2>
+  <b>Имя:</b> $name<br>
+  <b>Телефон:</b> $phone<br>
+  <b>Email:</b> $email<br><br>
   <b>Сообщение:</b><br>$message
   ";
 }
