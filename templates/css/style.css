@@ -1175,6 +1175,10 @@ template {
 }
 
 .footer__logo {
+  height: 192px;
+}
+
+.footer__logo-link {
   width: 166px;
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
@@ -1654,7 +1658,7 @@ template {
     -ms-flex-preferred-size: 49%;
         flex-basis: 49%;
   }
-  .footer__logo {
+  .footer__logo-link {
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
     grid-row: 1 / 2;
@@ -1960,7 +1964,7 @@ template {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
-  .footer__logo {
+  .footer__logo-link {
     -ms-grid-row: 1;
     grid-row: 1;
     -ms-grid-column: 1;
