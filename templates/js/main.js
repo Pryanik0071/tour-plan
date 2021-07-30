@@ -100,12 +100,29 @@ $(document).ready(function () {
   $(".form").each(function () {
     $(this).validate({
       errorClass: "invalid",
+      rules: {
+        "phone-modal": {
+          required: true,
+          minlength: 18,
+        },
+        phone: {
+          required: true,
+          minlength: 18,
+        },
+      },
       messages: {
         "name-modal": "Name is required",
-        "phone-modal": "Phone is required",
-        "email-modal": "Email is required",
         name: "Name is required",
-        phone: "Phone is required",
+        "phone-modal": {
+          required: "Phone is required",
+          minlength: jQuery.validator.format("Format input +7 (999) 999-99-99"),
+        },
+        phone: {
+          required: "Phone is required",
+          minlength: jQuery.validator.format("Format input +7 (999) 999-99-99"),
+        },
+        "email-news": "Email is required",
+        "email-modal": "Email is required",
         email: "Email is required",
       },
     });

@@ -289,14 +289,15 @@
         </h2>
         <form
           action="send.php"
-          class="subscribe newsletter__subscribe"
+          class="subscribe newsletter__subscribe form"
           method="POST"
         >
           <input
             type="email"
             class="subscribe__input"
-            placeholder="Your email address"
-            name="email"
+            placeholder="Your email address*"
+            name="email-news"
+            required
           />
           <button class="subscribe__button">Send</button>
         </form>
