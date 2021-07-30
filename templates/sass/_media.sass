@@ -40,6 +40,7 @@
       width: 340px
 
   .hotel
+    padding-bottom: 60px
     &-grid
       flex-direction: column
     &-slider
@@ -82,41 +83,57 @@
     padding-top: 73px
     padding-bottom: 33px
     &-wrapper
-      grid-template-columns: repeat(6, 1fr)
-      grid-row-gap: 40px
+      grid-template-columns: repeat(3, 1fr)
+      grid-row-gap: 46px
       margin-bottom: 56px
-    &__imput
-      flex-basis: 49%
+      grid-column-gap: 0
+    &__input
+      &-group
+        flex-basis: 47%
     &__logo
       height: 110px
       &-link
         width: 104px
         grid-row: 1 / 2
-        grid-column: span 2
+        grid-column: span 1
     &__social
       &-network
         grid-row: 1 / 2
-        grid-column: span 4
+        grid-column: span 2
         align-self: center
+        margin-left: -34px
+        margin-top: 11px
+    &__title
+      margin-bottom: 20px
+      &--inline
+        margin: 0 45px 0 0
+      &_send
+        margin-bottom: 34px    
     &__categories
       grid-row: 2 / 3
-      grid-column: span 2
     &__additional
-      grid-column: span 2
+      grid-row: 2 / 3
+      min-width: 260px
     &__legal
-      grid-column: span 2
+      grid-row: 2 / 3
     &__contact
       &-details
         grid-row: 3
-        grid-column: span 5
+        margin-top: 15px
+        grid-column: span 3
       &-form
+        max-width: 539px
         grid-row: 4
-        grid-column: span 5
+        margin-top: 8px
+        grid-column: span 3
     &-disclaimer
       grid-template-columns: 1fr 136px
       &__list
         grid-column: 1
         justify-content: start
+    &__email
+      &-example
+        margin-bottom: 0
 
 @media (max-width: 768px)
   body
