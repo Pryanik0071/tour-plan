@@ -41,7 +41,7 @@ $(document).ready(function () {
     myMap.geoObjects.add(myPlacemark);
   }
 
-  // Слайдер фото отеля
+  // Слайдер отзывов
   const swiperReviews = new Swiper(".reviews-container", {
     // Optional parameters
     loop: true,
@@ -93,6 +93,21 @@ $(document).ready(function () {
     modalOverlay.removeClass("modal__overlay--visible");
     modalDialog.removeClass("modal__dialog--visible");
   }
+
+  // Валидация
+  $(".form").each(function () {
+    $(this).validate({
+      errorClass: "invalid",
+      messages: {
+        "name-modal": "Name is required",
+        "phone-modal": "Phone is required",
+        "email-modal": "Email is required",
+        name: "Name is required",
+        phone: "Phone is required",
+        email: "Email is required",
+      },
+    });
+  });
 });
 
 // Parallax
