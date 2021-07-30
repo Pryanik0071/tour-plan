@@ -94,6 +94,8 @@ $(document).ready(function () {
     modalDialog.removeClass("modal__dialog--visible");
   }
 
+  $('input[type="tel"]').mask("+7 (000) 000-00-00");
+
   // Валидация
   $(".form").each(function () {
     $(this).validate({
