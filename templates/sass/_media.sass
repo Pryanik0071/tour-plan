@@ -360,16 +360,20 @@
     &-menu
       top: 69px
 
-  .search__input
-    width: 250px
-
+  .search
+    &__input
+      width: 250px
+  
   .logo
     width: 99px
     height: 13px
 
-  .hotel-slider
-    height: 250px
-    margin-bottom: 20px
+  .hotel
+    &-slider
+      height: 179px
+      margin-bottom: 20px
+    &__right
+      min-height: 402px
       
   .newsletter
     &-title
@@ -380,6 +384,22 @@
         font-weight: 600
         font-size: 30px
         line-height: 38px
+
+  .reviews
+    &__title
+      display: block
+      max-width: 245px
+      margin: auto
+      margin-bottom: 42px
+    &-slide
+      &__text
+         max-height: 266px
+
+  .activities__card
+    &:nth-child(1)
+      order: -2
+    &:nth-child(3)
+      order: -1
 
   .subscribe
     max-width: 350px
@@ -395,64 +415,6 @@
   
   .card
     width: 100%
-
-  // .footer
-  //   padding-top: 69px
-  //   padding-bottom: 21px
-  //   &-wrapper
-  //     margin-bottom: 30px
-  //   &__title
-  //     &-social
-  //       flex-basis: 100%
-  //       margin-bottom: 22px
-  //   &-wrapper
-  //     grid-template-columns: 1fr
-  //   &__logo
-  //     &-link
-  //       grid-row: 1
-  //       grid-column: 1
-  //   &__social
-  //     &-links
-  //       width: 85px
-  //     &-network
-  //       grid-row: 2
-  //       grid-column: 1
-  //       flex-wrap: wrap
-  //   &__legal
-  //     grid-row: 3
-  //     grid-column: 1
-  //     justify-self: start
-  //   &__additional
-  //     grid-row: 4
-  //     grid-column: 1
-  //   &__categories
-  //     grid-row: 5
-  //     grid-column: 1
-  //   &__contact
-  //     &-details
-  //       grid-row: 6
-  //       grid-column: 1
-  //     &-form
-  //       grid-row: 7
-  //       grid-column: 1
-  //   &__info
-  //     margin-bottom: 15px
-  //   &__send
-  //     &-wrapper  
-  //       flex-direction: column-reverse
-  //       align-items: start
-  //   &-disclaimer
-  //     grid-template-columns: 1fr
-  //     grid-template-rows: 1fr 1fr
-  //     grid-gap: 10px
-  //     &__list
-  //       grid-column: span 2
-  //       justify-content: space-between
-  //     &__link
-  //       margin-right: 0
-  //     &__payment
-  //       grid-column: 1
-  //       grid-row: 2
 
   .modal
     &__dialog
