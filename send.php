@@ -54,14 +54,14 @@ try {
 
     // Настройки вашей почты
     $mail->Host       = 'smtp.gmail.com'; // SMTP сервера вашей почты
-    $mail->Username   = 'okka.fuccka@gmail.com'; // Логин на почте
-    $mail->Password   = 'SOri129NbhgrRl0'; // Пароль на почте
+    $mail->Username   = ''; // Логин на почте
+    $mail->Password   = ''; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
-    $mail->setFrom('okka.fuccka@gmail.com', 'OKKA FUCCKA'); // Адрес самой почты и имя отправителя
+    $mail->setFrom('', ''); // Адрес самой почты и имя отправителя
 
     // Получатель письма
-    $mail->addAddress('di.mesler.2010@yandex.ru');
+    $mail->addAddress('');
 
 // Отправка сообщения
 $mail->isHTML(true);
