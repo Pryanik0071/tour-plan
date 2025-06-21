@@ -1,5 +1,3 @@
-# [Host](https://pryanik0071.github.io/tour-plan/)
-
 # Tour Plan
 
 [![GitHub Pages](https://img.shields.io/badge/-DEMO-20BEFF?style=for-the-badge)](https://pryanik0071.github.io/tour-plan/)
